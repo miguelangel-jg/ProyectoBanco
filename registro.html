@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+    <link rel="shortcut icon" href="imagenes/icono-registro.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html">INICIO</a>
+          <a href="servicios.html">SERVICIOS</a>
+          <a href="registro.html">HACERSE CLIENTE</a>
+          <a href="contacto.html">CONTACTO</a>
+          <a target="_blank" href="inicio-sesion.html">ÁREA CLIENTE</a>
+        </nav>
+      </header>
+      <main>
+        <form>
+          <h3>REGISTRO</h3>
+          <span>Nombre</span>
+          <input placeholder="Nombre" type="text">
+          <span>Apellidos</span>
+          <input placeholder="Apellidos" type="text">
+          <span>Telefono</span>
+          <input placeholder="Telefono" type="text">
+          <span>DNI</span>
+          <input placeholder="DNI. Ej: 12345678A" type="text">
+          <span>Email</span>
+          <input placeholder="Email" type="email">
+          <span>Contraseña:</span>
+          <input type="password" placeholder="Contraseña">
+          <span>Repita Contraseña:</span>
+          <input type="password" placeholder="Contraseña">
+          <span>Tipo de cuenta bancaria:</span>
+
+          <select name="tipo_cuenta" id="tipo_cuenta">
+            <option value="normal">Cuenta Bancaria Normal</option>
+            <option value="joven">Cuenta Joven</option>
+            <option value="ahorro">Cuenta de Ahorro</option>
+            <option value="pensionista">Cuenta Pensionista</option>
+          </select>
+          <a href="inicio-sesion.html">REGISTRARSE</a>
+        </form>
+      </main>
+</body>
+</html>
